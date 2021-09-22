@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import coverDark from './images/cover-dark.svg';
+import coverLight from './images/cover-light.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={coverLight} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
