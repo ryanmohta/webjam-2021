@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Tofino Pro Personal';
+  src: url('fonts/tofinopropersonal-regular.woff2') format('woff2'),
+       url('fonts/tofinopropersonal-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Tofino Pro Personal';
+  font-weight: 300;
+  src: url('fonts/tofinopropersonal-book.woff2') format('woff2'),
+       url('fonts/tofinopropersonal-book.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Tofino Pro Personal';
+  font-weight: 500;
+  src: url('fonts/tofinopropersonal-medium.woff2') format('woff2'),
+       url('fonts/tofinopropersonal-medium.woff') format('woff');
+}
