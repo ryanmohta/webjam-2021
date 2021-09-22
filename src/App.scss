@@ -1,0 +1,50 @@
+.App-header .content {
+  margin: 5% 10%;
+  text-align: center;
+  color: rgb(0, 131, 47);
+
+  h3, h4 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 24px;
+  }
+
+  h4 {
+    display: inline-block;
+    border: 4px solid rgb(255, 122, 122);
+    padding: 12px 24px;
+    margin: 12px;
+    border-radius: 9999px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    &.accent {
+      background-color: rgb(255, 122, 122);
+      a { color: white; }
+    }
+
+  }
+}
+
+.App-schedule-events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.Event {
+  padding: 24px;
+  margin: 16px;
+  border-radius: 24px;
+}
+
+.Event-header {
+  display: flex;
+}
+
+.Event-date {
+  border: 1px solid red;
+  border-radius: 8px;
+}
