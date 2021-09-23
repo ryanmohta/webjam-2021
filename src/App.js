@@ -28,11 +28,11 @@ function App() {
 function Event(props) {
   return (
     <div className="Event">
-      <div className="Event-header">
-        <div className="Event-date">
+      <div className="header">
+        <div className="date">
           <h4>{ props.shortDate }</h4>
         </div>
-        <div className="Event-headerText">
+        <div className="text">
           <h3>{ props.name }</h3>
           <h5>{ props.info }</h5>
         </div>
