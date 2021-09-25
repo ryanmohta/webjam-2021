@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/webjam-2021/static/css/main.bb8f91eb.chunk.css",
+    "main.js": "/webjam-2021/static/js/main.7e3aed4a.chunk.js",
+    "main.js.map": "/webjam-2021/static/js/main.7e3aed4a.chunk.js.map",
+    "runtime-main.js": "/webjam-2021/static/js/runtime-main.d0508724.js",
+    "runtime-main.js.map": "/webjam-2021/static/js/runtime-main.d0508724.js.map",
+    "static/js/2.17f13563.chunk.js": "/webjam-2021/static/js/2.17f13563.chunk.js",
+    "static/js/2.17f13563.chunk.js.map": "/webjam-2021/static/js/2.17f13563.chunk.js.map",
+    "static/js/3.5004bc7d.chunk.js": "/webjam-2021/static/js/3.5004bc7d.chunk.js",
+    "static/js/3.5004bc7d.chunk.js.map": "/webjam-2021/static/js/3.5004bc7d.chunk.js.map",
+    "index.html": "/webjam-2021/index.html",
+    "static/css/main.bb8f91eb.chunk.css.map": "/webjam-2021/static/css/main.bb8f91eb.chunk.css.map",
+    "static/js/2.17f13563.chunk.js.LICENSE.txt": "/webjam-2021/static/js/2.17f13563.chunk.js.LICENSE.txt",
+    "static/media/cover-dark.aca7e67e.svg": "/webjam-2021/static/media/cover-dark.aca7e67e.svg",
+    "static/media/cover-light.46b31dd4.svg": "/webjam-2021/static/media/cover-light.46b31dd4.svg",
+    "static/media/fonts.css": "/webjam-2021/static/media/tofinopropersonal-regular.a45648d1.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0508724.js",
+    "static/js/2.17f13563.chunk.js",
+    "static/css/main.bb8f91eb.chunk.css",
+    "static/js/main.7e3aed4a.chunk.js"
+  ]
+}
