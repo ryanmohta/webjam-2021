@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactCardFlip from 'react-card-flip';
 import coverDark from './images/cover-dark.svg';
 import coverLight from './images/cover-light.svg';
 import './App.scss';
@@ -65,18 +66,25 @@ function Event(props) {
 class Question extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { answered: false };
+    this.state = { isFlipped: false };
   }
 
-  handleClick = () => this.setState({ answered: !this.state.answered });
+  handleClick = () => {
+    this.setState({ isFlipped: !this.state.isFlipped });
+
+  };
 
   render() {
     return (
-      <div className="Question" onClick={this.handleClick}>
-        { this.state.answered ? <p>{ this.props.answer }</p>
-          : <h3>{ this.props.question }</h3>
-        }
-      </div>
+      <ReactCardFlip isFlipped={this.state.isFlipped}>
+        <div className="Question" onClick={this.handleClick}>
+          <h3>{ this.props.question }</h3>
+        </div>
+
+        <div className="Question answered" onClick={this.handleClick}>
+          <h3>{ this.props.answer }</h3>
+        </div>
+      </ReactCardFlip>
     );
   }
 }
