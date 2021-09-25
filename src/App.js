@@ -3,6 +3,7 @@ import ReactCardFlip from 'react-card-flip';
 import coverDark from './images/cover-dark.svg';
 import coverLight from './images/cover-light.svg';
 import './App.scss';
+import faq from './faq';
 
 function App() {
   return (
@@ -26,18 +27,7 @@ function App() {
       <div className="section faq">
         <h2>FAQs and Rules</h2>
         <div className="questions">
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
-          <Question question="Who?" answer="Me!" />
+          { faq.map(question => <Question question={question.question} answer={question.answer} />) }
         </div>
       </div>
 
@@ -82,7 +72,7 @@ class Question extends React.Component {
         </div>
 
         <div className="Question answered" onClick={this.handleClick}>
-          <h3>{ this.props.answer }</h3>
+          <p>{ this.props.answer }</p>
         </div>
       </ReactCardFlip>
     );

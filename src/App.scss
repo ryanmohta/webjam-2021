@@ -1,5 +1,11 @@
 // Global styles
 
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
 body {
   font-size: 14px;
 }
@@ -109,6 +115,8 @@ h2 {
   justify-content: center;
   align-items: center;
   color: white;
+  padding: 24px;
+  text-align: center;
 
   &.answered {
     background-color: white;
