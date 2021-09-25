@@ -14,7 +14,7 @@ function App() {
           <h4><a href="#">Join our Discord</a></h4>
         </div>
       </header>
-      <div className="schedule">
+      <div className="section schedule">
         <h2>Event Schedule</h2>
         <div className="events">
           <Event name="Kickoff Ceremony" shortDate="11" info="Monday, Oct 11 • ICSSC" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
@@ -22,9 +22,20 @@ function App() {
           <Event name="Kickoff Ceremony" shortDate="11" info="Monday, Oct 11 • ICSSC" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
         </div>
       </div>
-      <div className="faq">
+      <div className="section faq">
         <h2>FAQs and Rules</h2>
         <div className="questions">
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
+          <Question question="Who?" answer="Me!" />
           <Question question="Who?" answer="Me!" />
         </div>
       </div>

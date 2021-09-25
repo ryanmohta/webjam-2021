@@ -42,8 +42,11 @@ h2 {
   }
 }
 
-.schedule {
+.section {
   padding: 24px 0;
+}
+
+.schedule {
   background-color: rgb(148, 230, 255);
 
   .events {
@@ -88,4 +91,16 @@ h2 {
       h5 { font-size: 14px; font-weight: 400; }
     }
   }
+}
+
+.questions {
+  display: grid;
+  grid-gap: 36px;
+  margin: 0 24px;
+  grid-template-columns: repeat(auto-fit, 256px);
+}
+
+.Question {
+  height: 256px;
+  background-color: blue;
 }
