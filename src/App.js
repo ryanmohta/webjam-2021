@@ -16,6 +16,7 @@ function App() {
           <h4><a href="#">Join our Discord</a></h4>
         </div>
       </header>
+
       <div className="section schedule">
         <h2>Event Schedule</h2>
         <div className="events">
@@ -24,11 +25,16 @@ function App() {
           <Event name="Kickoff Ceremony" shortDate="11" info="Monday, Oct 11 • ICSSC" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
         </div>
       </div>
+
       <div className="section faq">
         <h2>FAQs and Rules</h2>
         <div className="questions">
           { faq.map(question => <Question question={question.question} answer={question.answer} />) }
         </div>
+      </div>
+
+      <div className="section copyright">
+        <p>© 2021 ICSSC Projects Committee</p>
       </div>
 
     </div>
