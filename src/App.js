@@ -3,26 +3,25 @@ import ReactCardFlip from 'react-card-flip';
 import coverDark from './images/cover-dark.svg';
 import coverLight from './images/cover-light.svg';
 import './App.scss';
+import events from './events';
 import faq from './faq';
 
 function App() {
   return (
     <div className="App">
       <header className="header">
-        <img className="logo" alt="logo" /> {/* SPECIFIED IN CSS */}
+        <img className="cover" alt="cover" /> {/* SPECIFIED IN CSS */}
         <div className="content">
           <h3>ICS Student Council invites you to WebJam, a week-long competition where teams of students will create fully functional web applications! We'll be providing workshops throughout the week to help you get started, and awarding amazing prizes for the best projects out there!</h3>
-          <h4 className="accent"><a href="#">Register</a></h4>
-          <h4><a href="#">Join our Discord</a></h4>
+          <h4 className="accent"><a href="https://forms.gle/2E5okwV7KS9btNQx6">Register</a></h4>
+          <h4><a href="https://forms.gle/Le9KEoNFqpnYpoKVA">Become a Mentor</a></h4>
         </div>
       </header>
 
       <div className="section schedule">
         <h2>Event Schedule</h2>
         <div className="events">
-          <Event name="Kickoff Ceremony" shortDate="11" info="Monday, Oct 11 • ICSSC" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-          <Event name="Kickoff Ceremony" shortDate="11" info="Monday, Oct 11 • ICSSC" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-          <Event name="Kickoff Ceremony" shortDate="11" info="Monday, Oct 11 • ICSSC" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+          { events.map(event => <Event name={event.name} shortDate={event.shortDate} info={event.info} description={event.description} />) }
         </div>
       </div>
 
