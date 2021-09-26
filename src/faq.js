@@ -41,10 +41,10 @@ export default [
   },
   {
     question: "What if my question isn’t answered here?",
-    answer: "If your question isn’t answered in the FAQ, please leave a question in the WebJam Discord or email us at icssc@uci.edu."
+    answer: "If your question isn’t answered in the FAQ, please leave a question in the WebJam Discord or email us at <a href=\"mailto:icssc@uci.edu\">icssc@uci.edu</a>."
   },
   {
     question: "What are the rules?",
-    answer: "Please refer to the <a href=\"#\">WebJam Rules</a> and <a href=\"#\">WebJam Code of Conduct</a> for more information."
+    answer: "Please refer to the <a href=\"#\">WebJam Rules and Code of Conduct</a> for more information."
   },
 ];

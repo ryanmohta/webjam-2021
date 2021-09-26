@@ -72,7 +72,7 @@ class Question extends React.Component {
         </div>
 
         <div className="Question answered" onClick={this.handleClick}>
-          <p>{ this.props.answer }</p>
+          <p dangerouslySetInnerHTML={{ __html: this.props.answer }} />
         </div>
       </ReactCardFlip>
     );

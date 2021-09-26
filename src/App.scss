@@ -121,5 +121,9 @@ h2 {
   &.answered {
     background-color: white;
     color: rgb(0, 131, 47);
+
+    a {
+      color: inherit;
+    }
   }
 }
