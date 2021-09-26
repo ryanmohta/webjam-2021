@@ -5,7 +5,7 @@ export default [
   },
   {
     question: "Where is WebJam being held?",
-    answer: "WebJam will be a hybrid event this year, with in-person and online components. Some events such as our Kickoff and Closing Ceremonies will be held in DBH 6011, while others such as our workshops will be over Zoom. Check the schedule for more information about specific events!"
+    answer: "WebJam is being held in a hybrid environment, consisting of online events/workshops and an in-person closing ceremony. Correspondence and announcements will happen primarily through the WebJam Discord; registered participants will receive an invitation to the Discord closer to the start of WebJam."
   },
   {
     question: "When is WebJam?",
@@ -37,7 +37,7 @@ export default [
   },
   {
     question: "What if I don’t have any prior experience with web development?",
-    answer: "The ICSSC Projects Committee will be hosting workshops throughout the week to assist participants get started with web development."
+    answer: "Many ICS clubs will be hosting workshops throughout the week to assist participants get started with web development."
   },
   {
     question: "What if my question isn’t answered here?",
@@ -45,6 +45,6 @@ export default [
   },
   {
     question: "What are the rules?",
-    answer: "Please refer to the <a href=\"#\">WebJam Rules and Code of Conduct</a> for more information."
+    answer: "Please refer to the <a href=\"https://docs.google.com/document/d/1ycr7GI5N0F07lPkZwsaUn3muEDj0RBQ2NbDSYNk79sA/edit\">WebJam Rules and Code of Conduct</a> for more information."
   },
 ];

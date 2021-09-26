@@ -1,6 +1,7 @@
 @mixin light {
   body {
     --background: white;
+    --secondary-background: white;
     --foreground: black;
     --blue: rgb(148, 230, 255);
     --green: rgb(0, 131, 47);
@@ -13,6 +14,7 @@
 @mixin dark {
   body {
     --background: rgb(13, 17, 23);
+    --secondary-background: rgb(25, 30, 36);
     --foreground: white;
     --blue: rgb(0, 37, 48);
     --green: rgb(0, 190, 47);
