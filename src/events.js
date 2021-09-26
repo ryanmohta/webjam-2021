@@ -1,4 +1,4 @@
-export default [
+const events = [
   {
     name: 'Kickoff Ceremony',
     shortDate: 11,
@@ -23,4 +23,6 @@ export default [
     info: 'Fri 10/15 @ 5PM PST • DBH 6011',
     description: 'WebJam comes to a close with our prize ceremony! As the only IN-PERSON event during the week, this ceremony will allow you to present your projects in front of our esteemed judges and audience for the chance to win some cool prizes.'
   }
-]
+];
+
+export default events;

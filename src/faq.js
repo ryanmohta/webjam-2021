@@ -1,4 +1,4 @@
-export default [
+const faq = [
   {
     question: "What is WebJam?",
     answer: "WebJam is a week-long team competition where teams of students will create fully functional web applications."
@@ -48,3 +48,5 @@ export default [
     answer: "Please refer to the <a href=\"https://docs.google.com/document/d/1ycr7GI5N0F07lPkZwsaUn3muEDj0RBQ2NbDSYNk79sA/edit\">WebJam Rules and Code of Conduct</a> for more information."
   },
 ];
+
+export default faq;

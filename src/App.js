@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactCardFlip from 'react-card-flip';
-import coverDark from './images/cover-dark.svg';
-import coverLight from './images/cover-light.svg';
 import './App.scss';
 import events from './events';
 import faq from './faq';
