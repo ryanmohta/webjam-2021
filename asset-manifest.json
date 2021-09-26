@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/webjam-2021/static/css/main.8b3f24ec.chunk.css",
-    "main.js": "/webjam-2021/static/js/main.130a8010.chunk.js",
-    "main.js.map": "/webjam-2021/static/js/main.130a8010.chunk.js.map",
+    "main.css": "/webjam-2021/static/css/main.40021c5f.chunk.css",
+    "main.js": "/webjam-2021/static/js/main.c1d7a21a.chunk.js",
+    "main.js.map": "/webjam-2021/static/js/main.c1d7a21a.chunk.js.map",
     "runtime-main.js": "/webjam-2021/static/js/runtime-main.97229cc5.js",
     "runtime-main.js.map": "/webjam-2021/static/js/runtime-main.97229cc5.js.map",
     "static/js/2.5f644eaf.chunk.js": "/webjam-2021/static/js/2.5f644eaf.chunk.js",
@@ -10,16 +10,15 @@
     "static/js/3.7d13ee2e.chunk.js": "/webjam-2021/static/js/3.7d13ee2e.chunk.js",
     "static/js/3.7d13ee2e.chunk.js.map": "/webjam-2021/static/js/3.7d13ee2e.chunk.js.map",
     "index.html": "/webjam-2021/index.html",
-    "static/css/main.8b3f24ec.chunk.css.map": "/webjam-2021/static/css/main.8b3f24ec.chunk.css.map",
+    "static/css/main.40021c5f.chunk.css.map": "/webjam-2021/static/css/main.40021c5f.chunk.css.map",
     "static/js/2.5f644eaf.chunk.js.LICENSE.txt": "/webjam-2021/static/js/2.5f644eaf.chunk.js.LICENSE.txt",
-    "static/media/cover-dark.aca7e67e.svg": "/webjam-2021/static/media/cover-dark.aca7e67e.svg",
-    "static/media/cover-light.46b31dd4.svg": "/webjam-2021/static/media/cover-light.46b31dd4.svg",
+    "static/media/index.scss": "/webjam-2021/static/media/cover-light.46b31dd4.svg",
     "static/media/fonts.css": "/webjam-2021/static/media/tofinopropersonal-regular.a45648d1.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.97229cc5.js",
     "static/js/2.5f644eaf.chunk.js",
-    "static/css/main.8b3f24ec.chunk.css",
-    "static/js/main.130a8010.chunk.js"
+    "static/css/main.40021c5f.chunk.css",
+    "static/js/main.c1d7a21a.chunk.js"
   ]
 }
