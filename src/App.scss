@@ -1,9 +1,9 @@
 // Global styles
 
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 body {
@@ -17,10 +17,14 @@ h2 {
   font-weight: 300;
 }
 
+.logo {
+  content: var(--cover-image);
+}
+
 .header .content {
   margin: 6% 8%;
   text-align: center;
-  color: rgb(0, 131, 47);
+  color: var(--green);
 
   h3, h4 {
     font-weight: 400;
@@ -30,18 +34,18 @@ h2 {
 
   h4 {
     display: inline-block;
-    border: 2px solid rgb(255, 122, 122);
+    border: 2px solid var(--red);
     padding: 12px 32px;
     margin: 12px;
     border-radius: 9999px;
 
     a {
       text-decoration: none;
-      color: black;
+      color: var(--foreground);
     }
 
     &.accent {
-      background-color: rgb(255, 122, 122);
+      background-color: var(--red);
       a { color: white; }
     }
 
@@ -53,7 +57,7 @@ h2 {
 }
 
 .schedule {
-  background-color: rgb(148, 230, 255);
+  background-color: var(--blue);
 
   .events {
     display: grid;
@@ -62,7 +66,7 @@ h2 {
 }
 
 .Event {
-  background-color: white;
+  background-color: var(--background);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 32px 64px 0px;
   padding: 24px;
   margin: 24px;
@@ -73,7 +77,7 @@ h2 {
     align-items: center;
 
     .date {
-      background: rgb(255, 122, 122);
+      background: var(--red);
       border-radius: 8px;
       width: 56px; height: 56px;
       display: flex;
@@ -108,7 +112,7 @@ h2 {
 
 .Question {
   height: 256px;
-  background-color: rgb(0, 131, 47);
+  background-color: var(--green);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 32px 64px 0px;
   border-radius: 24px;
   display: flex;
@@ -119,8 +123,8 @@ h2 {
   text-align: center;
 
   &.answered {
-    background-color: white;
-    color: rgb(0, 131, 47);
+    background-color: var(--background);
+    color: var(--green);
 
     a {
       color: inherit;
@@ -129,6 +133,6 @@ h2 {
 }
 
 .copyright {
-  color: rgb(0, 131, 47);;
+  color: var(--green);;
   text-align: center;
 }

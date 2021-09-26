@@ -1,4 +1,8 @@
+@import 'theme';
+
 body {
+  background-color: var(--background);
+  color: var(--foreground);
   margin: 0;
   font-family: 'Tofino Pro Personal', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

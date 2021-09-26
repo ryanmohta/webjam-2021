@@ -1,0 +1,39 @@
+@mixin light {
+  body {
+    --background: white;
+    --foreground: black;
+    --blue: rgb(148, 230, 255);
+    --green: rgb(0, 131, 47);
+    --red: rgb(255, 122, 122);
+
+    --cover-image: url('images/cover-light.svg');
+  }
+}
+
+@mixin dark {
+  body {
+    --background: rgb(13, 17, 23);
+    --foreground: white;
+    --blue: rgb(0, 37, 48);
+    --green: rgb(0, 190, 47);
+    --red: rgb(133, 0, 0);
+
+    --cover-image: url('images/cover-dark.svg');
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  @include light;
+
+  html.dark {
+    @include dark;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  @include dark;
+
+  html.light {
+    @include light;
+  }
+}

@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <img src={coverLight} className="App-logo" alt="logo" />
+        <img className="logo" alt="logo" /> {/* SPECIFIED IN CSS */}
         <div className="content">
           <h3>ICS Student Council invites you to WebJam, a week-long competition where teams of students will create fully functional web applications! We'll be providing workshops throughout the week to help you get started, and awarding amazing prizes for the best projects out there!</h3>
           <h4 className="accent"><a href="#">Register</a></h4>
