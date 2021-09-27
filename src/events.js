@@ -12,10 +12,10 @@ const events = [
     description: 'This workshop will go over the fundamentals of both UI and UX. A brief introduction about each part will be given to ensure that attendees have a good understanding of the differences between the two, as well as how the two sections overlap. The UI section will go over basic visual design principles. The UX section will explain common layout designs and practices.'
   },
   {
-    name: 'MAISS Workshop',
+    name: 'Introduction to SQL',
     shortDate: 14,
     info: 'Thu 10/14 @ 7PM PST • MAISS',
-    description: 'Description tbd'
+    description: 'Learn the applications of SQL through an introductory, interactive workshop hosted by MAISS.'
   },
   {
     name: 'Presentations/Closing Ceremony',
