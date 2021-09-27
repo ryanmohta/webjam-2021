@@ -18,7 +18,7 @@ const events = [
     description: 'Learn the applications of SQL through an introductory, interactive workshop hosted by MAISS.'
   },
   {
-    name: 'Presentations/Closing Ceremony',
+    name: 'Presentations & Closing Ceremony',
     shortDate: 15,
     info: 'Fri 10/15 @ 5PM PST • DBH 6011',
     description: 'WebJam comes to a close with our prize ceremony! As the only IN-PERSON event during the week, this ceremony will allow you to present your projects in front of our esteemed judges and audience for the chance to win some cool prizes.'
