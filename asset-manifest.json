@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webjam-2021/static/css/main.3b659cfb.chunk.css",
+    "main.css": "/webjam-2021/static/css/main.e52fd608.chunk.css",
     "main.js": "/webjam-2021/static/js/main.c1d7a21a.chunk.js",
     "main.js.map": "/webjam-2021/static/js/main.c1d7a21a.chunk.js.map",
     "runtime-main.js": "/webjam-2021/static/js/runtime-main.97229cc5.js",
@@ -10,15 +10,15 @@
     "static/js/3.7d13ee2e.chunk.js": "/webjam-2021/static/js/3.7d13ee2e.chunk.js",
     "static/js/3.7d13ee2e.chunk.js.map": "/webjam-2021/static/js/3.7d13ee2e.chunk.js.map",
     "index.html": "/webjam-2021/index.html",
-    "static/css/main.3b659cfb.chunk.css.map": "/webjam-2021/static/css/main.3b659cfb.chunk.css.map",
+    "static/css/main.e52fd608.chunk.css.map": "/webjam-2021/static/css/main.e52fd608.chunk.css.map",
     "static/js/2.5f644eaf.chunk.js.LICENSE.txt": "/webjam-2021/static/js/2.5f644eaf.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/webjam-2021/static/media/cover-light.ece883e5.svg",
+    "static/media/index.scss": "/webjam-2021/static/media/cover-light.efd912aa.svg",
     "static/media/fonts.css": "/webjam-2021/static/media/tofinopropersonal-regular.a45648d1.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.97229cc5.js",
     "static/js/2.5f644eaf.chunk.js",
-    "static/css/main.3b659cfb.chunk.css",
+    "static/css/main.e52fd608.chunk.css",
     "static/js/main.c1d7a21a.chunk.js"
   ]
 }
