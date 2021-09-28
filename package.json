@@ -2,7 +2,7 @@
   "name": "webjam-2021",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ryanmohta.github.io/webjam-2021",
+  "homepage": "https://webjam-2021.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
