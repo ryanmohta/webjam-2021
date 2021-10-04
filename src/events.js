@@ -12,6 +12,18 @@ const events = [
     description: 'This workshop will go over the fundamentals of both UI and UX. A brief introduction about each part will be given to ensure that attendees have a good understanding of the differences between the two, as well as how the two sections overlap. The UI section will go over basic visual design principles. The UX section will explain common layout designs and practices.'
   },
   {
+    name: 'Introduction to APIs',
+    shortDate: 12,
+    info: 'Tue 10/12 @ 7PM PST • ICSSC Projects',
+    description: "Learn how to use APIs in web development and how they can enhance your project. The workshop will also introduce ICSSC Projects' very own PeterPortal API."
+  },
+  {
+    name: 'Introduction to Python Flask',
+    shortDate: 13,
+    info: 'Wed 10/13 @ 8PM PST • WICS',
+    description: 'Learn the basics of Python Flask and create a basic end-to-end web app through an interactive workshop hosted by WICS!'
+  },
+  {
     name: 'Introduction to SQL',
     shortDate: 14,
     info: 'Thu 10/14 @ 7PM PST • MAISS',
