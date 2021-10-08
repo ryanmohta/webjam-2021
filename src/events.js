@@ -21,6 +21,13 @@ const events = [
     description: "Learn how to use APIs in web development and how they can enhance your project. The workshop will also introduce ICSSC Projects' very own PeterPortal API."
   },
   {
+    name: 'Intro to React',
+    weekday: 'Tue',
+    shortDate: 12,
+    info: 'Tue 10/12 @ 8:30PM PST • ICSSC',
+    description: "Build an interactive website with React, the most popular web dev framework around! You'll learn what React actually is and explore some of its building blocks — components, props, state, and events — and the role each plays in a React app. We'll also be adding Dark Mode to this website in the Dark Mode workshop Thursday night!"
+  },
+  {
     name: 'Introduction to Python Flask',
     weekday: 'Wed',
     shortDate: 13,
@@ -33,6 +40,13 @@ const events = [
     shortDate: 14,
     info: 'Thu 10/14 @ 7PM PST • MAISS',
     description: 'Learn the applications of SQL through an introductory, interactive workshop hosted by MAISS.'
+  },
+  {
+    name: 'Add Dark Mode to your website',
+    weekday: 'Thu',
+    shortDate: 14,
+    info: 'Thu 10/14 @ 8:30PM PST • ICSSC',
+    description: "The React app you made with us on Tuesday is about to get a fresh coat of dark paint! Along the way, you'll also learn why you should add this sleek new look to your website, and best design/coding practices to guarantee a great experience for your user. (if you didn't attend the Intro to React workshop on Tuesday that's fine too, we'll provide source code!)"
   },
   {
     name: 'Presentations & Closing Ceremony',
