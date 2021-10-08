@@ -18,3 +18,10 @@
   src: url('fonts/tofinopropersonal-medium.woff2') format('woff2'),
        url('fonts/tofinopropersonal-medium.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Tofino Pro Personal';
+  font-weight: 600;
+  src: url('fonts/tofinopropersonal-semibold.woff2') format('woff2'),
+       url('fonts/tofinopropersonal-semibold.woff') format('woff');
+}
