@@ -19,7 +19,7 @@ function App() {
       <div className="section schedule">
         <h2>Event Schedule</h2>
         <div className="events">
-          { events.map(event => <Event name={event.name} shortDate={event.shortDate} info={event.info} description={event.description} />) }
+          { events.map(event => <Event name={event.name} weekday={event.weekday} shortDate={event.shortDate} info={event.info} description={event.description} />) }
         </div>
       </div>
 
@@ -44,6 +44,7 @@ function Event(props) {
     <div className="Event">
       <div className="header">
         <div className="date">
+          <h5>{ props.weekday }</h5>
           <h4>{ props.shortDate }</h4>
         </div>
         <div className="text">

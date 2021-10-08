@@ -83,13 +83,24 @@ h2 {
       min-width: 56px; min-height: 56px;
       max-width: 56px; max-height: 56px;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      text-align: center;
+
+      h4, h5 {
+        color: white;
+        margin: -6px;
+        font-weight: 600
+      }
 
       h4 {
-        color: white;
-        margin: 0;
         font-size: 32px;
+      }
+
+      h5 {
+        font-size: 14px;
+        margin-top: -2px;
       }
     }
 
