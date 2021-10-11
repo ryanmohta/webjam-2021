@@ -49,7 +49,7 @@ function Event(props) {
         </div>
         <div className="text">
           <h3>{ props.name }</h3>
-          <h5>{ props.info }</h5>
+          <h5 dangerouslySetInnerHTML={{ __html: props.info }} />
         </div>
       </div>
       <p>{ props.description }</p>

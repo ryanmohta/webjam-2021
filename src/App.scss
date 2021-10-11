@@ -10,6 +10,10 @@ body {
   font-size: 14px;
 }
 
+a {
+  color: inherit;
+}
+
 h2 {
   text-align: center;
   font-weight: 400;
@@ -139,10 +143,6 @@ h2 {
   &.answered {
     background-color: var(--secondary-background);
     color: var(--green);
-
-    a {
-      color: inherit;
-    }
   }
 }
 
