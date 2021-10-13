@@ -32,7 +32,7 @@ const events = [
     weekday: 'Wed',
     shortDate: 13,
     info: 'Wed 10/13 @ 8PM PST • WICS • <a href="https://uci.zoom.us/j/94632240042">Zoom link</a>',
-    description: 'Learn the basics of Python Flask and create a basic end-to-end web app through an interactive workshop hosted by WICS!'
+    description: "<p>Learn the basics of Python Flask and create a basic end-to-end web app through an interactive workshop hosted by WICS!</p><p>(note: our presenters ask that you clone <a href='https://github.com/WICSOutreach/webjam-web-dev-workshop'>this repository</a> and set things up beforehand so that you are ready to go with the workshop! Need help? Here's a <a href='https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository'>guide</a> on how to clone a repo)</p>",
   },
   {
     name: 'Introduction to SQL',

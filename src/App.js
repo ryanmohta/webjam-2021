@@ -52,7 +52,7 @@ function Event(props) {
           <h5 dangerouslySetInnerHTML={{ __html: props.info }} />
         </div>
       </div>
-      <p>{ props.description }</p>
+      <p dangerouslySetInnerHTML={{ __html: props.description }} />
     </div>
   )
 }
