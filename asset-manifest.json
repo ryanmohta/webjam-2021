@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f276a7ce.css",
-    "main.js": "/static/js/main.0de88964.js",
-    "static/js/787.a18d0b28.chunk.js": "/static/js/787.a18d0b28.chunk.js",
-    "static/media/cover-dark.svg": "/static/media/cover-dark.1d6f70b1964c86e6b8a7.svg",
-    "static/media/cover-light.svg": "/static/media/cover-light.efd912aac8518cb2f084.svg",
-    "static/media/tofinopropersonal-semibold.woff": "/static/media/tofinopropersonal-semibold.29c4224e3ab35f420ead.woff",
-    "static/media/tofinopropersonal-medium.woff": "/static/media/tofinopropersonal-medium.7442f78e87a6452f7b20.woff",
-    "static/media/tofinopropersonal-regular.woff": "/static/media/tofinopropersonal-regular.a45648d16492de119e31.woff",
-    "static/media/tofinopropersonal-book.woff": "/static/media/tofinopropersonal-book.365d036a33400efe02c2.woff",
-    "static/media/tofinopropersonal-semibold.woff2": "/static/media/tofinopropersonal-semibold.8ac6d0dfebc1a54b9565.woff2",
-    "static/media/tofinopropersonal-medium.woff2": "/static/media/tofinopropersonal-medium.b60b847428fc6eebda25.woff2",
-    "static/media/tofinopropersonal-regular.woff2": "/static/media/tofinopropersonal-regular.7ff8e7ba4384595e7b0e.woff2",
-    "static/media/tofinopropersonal-book.woff2": "/static/media/tofinopropersonal-book.cc8bc7c16aadc7214b9a.woff2",
-    "index.html": "/index.html",
-    "main.f276a7ce.css.map": "/static/css/main.f276a7ce.css.map",
-    "main.0de88964.js.map": "/static/js/main.0de88964.js.map",
-    "787.a18d0b28.chunk.js.map": "/static/js/787.a18d0b28.chunk.js.map"
+    "main.css": "/webjam-2021/static/css/main.cffd4d94.css",
+    "main.js": "/webjam-2021/static/js/main.e2a96087.js",
+    "static/js/787.a18d0b28.chunk.js": "/webjam-2021/static/js/787.a18d0b28.chunk.js",
+    "static/media/cover-dark.svg": "/webjam-2021/static/media/cover-dark.1d6f70b1964c86e6b8a7.svg",
+    "static/media/cover-light.svg": "/webjam-2021/static/media/cover-light.efd912aac8518cb2f084.svg",
+    "static/media/tofinopropersonal-semibold.woff": "/webjam-2021/static/media/tofinopropersonal-semibold.29c4224e3ab35f420ead.woff",
+    "static/media/tofinopropersonal-medium.woff": "/webjam-2021/static/media/tofinopropersonal-medium.7442f78e87a6452f7b20.woff",
+    "static/media/tofinopropersonal-regular.woff": "/webjam-2021/static/media/tofinopropersonal-regular.a45648d16492de119e31.woff",
+    "static/media/tofinopropersonal-book.woff": "/webjam-2021/static/media/tofinopropersonal-book.365d036a33400efe02c2.woff",
+    "static/media/tofinopropersonal-semibold.woff2": "/webjam-2021/static/media/tofinopropersonal-semibold.8ac6d0dfebc1a54b9565.woff2",
+    "static/media/tofinopropersonal-medium.woff2": "/webjam-2021/static/media/tofinopropersonal-medium.b60b847428fc6eebda25.woff2",
+    "static/media/tofinopropersonal-regular.woff2": "/webjam-2021/static/media/tofinopropersonal-regular.7ff8e7ba4384595e7b0e.woff2",
+    "static/media/tofinopropersonal-book.woff2": "/webjam-2021/static/media/tofinopropersonal-book.cc8bc7c16aadc7214b9a.woff2",
+    "index.html": "/webjam-2021/index.html",
+    "main.cffd4d94.css.map": "/webjam-2021/static/css/main.cffd4d94.css.map",
+    "main.e2a96087.js.map": "/webjam-2021/static/js/main.e2a96087.js.map",
+    "787.a18d0b28.chunk.js.map": "/webjam-2021/static/js/787.a18d0b28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f276a7ce.css",
-    "static/js/main.0de88964.js"
+    "static/css/main.cffd4d94.css",
+    "static/js/main.e2a96087.js"
   ]
 }
