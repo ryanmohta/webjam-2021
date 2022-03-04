@@ -1,4 +1,4 @@
-### → [icssc-webjam.com](https://icssc-webjam.com) ←
+### → [webjam.icssc.club](https://webjam.icssc.club) ←
 
 ![WebJam 2021](https://user-images.githubusercontent.com/19882060/134872372-90477e86-5094-4e7c-9e2f-08ee4f563f58.png)
 
